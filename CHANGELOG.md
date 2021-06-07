@@ -14,6 +14,10 @@ All notable changes to this project will be documented in this file.
 
 - all: update the default TLS config to disable TLS < 1.2
 
+### Breaking
+
+- disco: the `Feature` type moved to `info.Feature`
+
 
 ### Added
 
@@ -23,6 +27,7 @@ All notable changes to this project will be documented in this file.
 - stanza: implement [XEP-0203: Delayed Delivery]
 - stanza: more general `UnmarshalError` function that doesn't focus on IQs
 - stanza: add `Error` method to `Presence` and `Message`
+- disco/info: new package containing the former `disco.Feature` type
 
 
 ### Fixed
